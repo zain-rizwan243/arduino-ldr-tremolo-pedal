@@ -40,7 +40,7 @@ the audio. The result is a cheap, easy-to-build pedal.
 ## Code
 The Arduino sketch reads the potentiometer on A0, converts it into a
 delay time (30 ms to 500 ms), and switches the LED on and off with that
-delay. See `tremolo/tremolo.ino`.
+delay. See `tremolo.ino`.
 
 ## Testing and Results
 The circuit was tested on a breadboard with an oscilloscope. It achieved
@@ -63,8 +63,7 @@ pedal using common parts.
   smoother tremolo.
 
 ## Repository Contents
-- `tremolo/tremolo.ino` - Arduino code for the LED flash rate
-- `images/` - circuit diagram and oscilloscope captures
+- `tremolo.ino` - Arduino code for the LED flash rate
 
 ## Author
 Zain Rizwan - Electrical Engineer<br>
