@@ -55,6 +55,14 @@ https://github.com/user-attachments/assets/09cd31e7-5a0d-4258-989a-cfd6469faa4d
 
 https://github.com/user-attachments/assets/711f882c-dc3e-4226-b790-38f9d921cd53
 
+https://github.com/user-attachments/assets/340a0b54-e4d6-4e16-9473-b9349bb64ab6
+
+Note: this recording is noisy. The circuit definitely needs noise
+filtering and tuning, but it shows that I understood and implemented
+the basic principle<br>
+Testing was done with an acoustic guitar fitted with a piezo pickup,
+not an electric guitar.
+
 
 ## Screenshots
 <img width="624" height="307" alt="Circuit Diagram" src="https://github.com/user-attachments/assets/ef6c321d-2288-4327-b630-0fcfb6ad446c" />
