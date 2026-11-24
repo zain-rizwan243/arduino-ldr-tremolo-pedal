@@ -18,8 +18,8 @@ the audio. The result is a cheap, easy-to-build pedal.
 
 ## How It Works
 1. The Arduino Nano flashes an LED connected to pin D6 on and off.
-2. A potentiometer sets the flash rate, from about 1 to 16 flashes per
-   second.
+2. A potentiometer sets the flash rate, from about 1 to 100 flashes per
+   second (a delay of 500 ms down to 5 ms).
 3. The LED and the LDR are coupled together with black plastic or tape,
    so the LDR sees only the LED's light and not the room light.
 4. The LDR's resistance changes with the LED's brightness. The LDR is
@@ -39,8 +39,11 @@ the audio. The result is a cheap, easy-to-build pedal.
 
 ## Code
 The Arduino sketch reads the potentiometer on A0, converts it into a
-delay time (30 ms to 500 ms), and switches the LED on and off with that
+delay time (5 ms to 500 ms), and switches the LED on and off with that
 delay. See `tremolo.ino`.
+
+Note: the original sketch was lost. The code in this repo is a recreated
+version that flashes the LED at a rate set by the potentiometer
 
 ## Testing and Results
 The circuit was tested on a breadboard with an oscilloscope. It achieved
@@ -48,7 +51,9 @@ close to the intended tremolo effect and works as a cheap, easy-to-build
 pedal using common parts.
 
 ## Demo
-[Link to video demo, oscilloscope video, or audio sample]
+https://github.com/user-attachments/assets/09cd31e7-5a0d-4258-989a-cfd6469faa4d
+https://github.com/user-attachments/assets/711f882c-dc3e-4226-b790-38f9d921cd53
+
 
 ## Screenshots
 <img width="624" height="307" alt="Circuit Diagram" src="https://github.com/user-attachments/assets/ef6c321d-2288-4327-b630-0fcfb6ad446c" />
@@ -61,6 +66,10 @@ pedal using common parts.
   the smooth wobble of a classic tremolo. The LDR's slow response
   softens the edges a little. Fading the LED smoothly would give a
   smoother tremolo.
+- At the fast end of the knob (a delay of roughly 20 ms or less), the
+  LED flashes too quickly to see and looks constantly on, so the
+  tremolo effect fades out. The most useful range is the slower part
+  of the knob.
 
 ## Repository Contents
 - `tremolo.ino` - Arduino code for the LED flash rate
