@@ -65,7 +65,8 @@ not an electric guitar.
 
 
 ## Screenshots
-<img width="624" height="307" alt="Circuit Diagram" src="https://github.com/user-attachments/assets/ef6c321d-2288-4327-b630-0fcfb6ad446c" />
+<img width="624" height="357" alt="Circuit Diagram" src="https://github.com/user-attachments/assets/408f73f6-667f-4135-a08b-de869558551e" />
+
 
 ## Limitations and Future Improvements
 - Testing was done on a breadboard, so the circuit picks up some noise.
